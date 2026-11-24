@@ -47,3 +47,7 @@ jobs:
             ${{ steps.plan.outputs.stdout }}
             \`\`\`
             `;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: 
