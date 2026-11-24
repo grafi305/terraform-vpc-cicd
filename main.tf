@@ -17,7 +17,7 @@ cidr_block           = var.vpc_cidr
   enable_dns_support   = true
 
   tags = {
-    Name = "project2-vpc"
+    Name = "project3-vpc-cicd"
   }
 }
 
